@@ -1,29 +1,29 @@
 ## 01-Structures.R
 # Code from 01-structures
 
-5 + 5
-4 - 1
-1 * 2
-4 ^ 2
+5 + 5 # = 10
+4 - 1 # = 3
+1 * 2 # = 2
+4 ^ 2 # = 16
 
 a <- 1
 b <- 2
-a + b
+a + b # = 3
 A <- 3
-a + b - A
+a + b - A # = 0
 
-round(3.1415)
-factorial(3)
-sqrt(9)
+round(3.1415) # = 3
+factorial(3) # = 6
+sqrt(9) # = 3
 
-factorial(round(2.0015) + 1)
+factorial(round(2.0015) + 1) # = 6
 
 # Your Turn
 # ---------
-10 + 2
-12 * 3
-36 - 6
-30 / 3
+10 + 2 # = 12
+12 * 3 # = 36
+36 - 6 # = 30
+30 / 3 # = 10
 # ---------
 
 # R objects
@@ -32,7 +32,7 @@ foo <- 42
 
 foo <- round(3.1415) + 1
 foo
-factorial(foo)
+factorial(foo) # = 24
 
 foo
 rm(foo)
